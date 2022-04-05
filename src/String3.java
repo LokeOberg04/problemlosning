@@ -12,7 +12,7 @@ public class String3 {
     }
     public static int ispalindrom(String s) {
         int a;
-        if (s == String1.reverse(s)) {
+        if (s.equals(String1.reverse(s))) {
             a = 1;
         }
         else{
